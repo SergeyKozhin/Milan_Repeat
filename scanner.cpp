@@ -28,6 +28,8 @@ static const char * tokenNames_[] = {
 	"'('",
 	"')'",
 	"';'",
+	"'REPEAT'",
+	"'UNTIL'",
 };
 
 void Scanner::nextToken()

@@ -1,0 +1,8 @@
+BEGIN
+    sum := 0;
+    REPEAT
+        curr := READ;
+        sum := sum + curr
+    UNTIL curr = 0;
+    WRITE(sum)
+END

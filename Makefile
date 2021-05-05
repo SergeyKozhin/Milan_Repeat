@@ -21,3 +21,11 @@ $(EXE): $(OBJS) $(HEADERS)
 clean:
 	-@rm -f $(EXE) $(OBJS)
 
+move:
+	cp $(EXE) test/$(EXE)
+	chmod +x test/$(EXE)
+
+build: $(EXE) move clean
+
+
+
