@@ -1,8 +1,0 @@
-BEGIN
-    n := READ;
-    i := 0;
-    REPEAT
-        i := i + 1;
-        WRITE(i)
-    UNTIL i >= n
-END
